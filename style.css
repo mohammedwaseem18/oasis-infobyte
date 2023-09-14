@@ -1,0 +1,59 @@
+/* Reset default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Light gray background color */
+    font-size: 16px; /* Base font size for better readability */
+    line-height: 1.5; /* Improved line spacing */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto; /* Improved margin for centering */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 30px; /* Slightly reduced margin for better spacing */
+}
+
+h2 {
+    color: #FF4500; /* Orange */
+    font-size: 24px; /* Larger font size for headings */
+    margin-bottom: 10px; /* Improved spacing between headings and content */
+}
+
+/* Essay Image Styles */
+.essay-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for images */
+.essay-image:hover {
+    transform: scale(1.05);
+}
